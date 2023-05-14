@@ -1,0 +1,149 @@
+/* Global styles */
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header styles */
+
+header {
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+  box-shadow: 0 2px 4px rgba(0,0,0,.1);
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.logo {
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav {
+  float: right;
+}
+
+.nav li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.nav li:first-child {
+  margin-left: 0;
+}
+
+.nav a {
+  display: inline-block;
+  padding: 10px;
+}
+
+.nav a:hover {
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+/* Main content styles */
+
+main {
+  margin-top: 60px;
+  padding: 20px;
+}
+
+.product {
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,.1);
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.product img {
+  float: left;
+  margin-right: 20px;
+  max-height: 150px;
+}
+
+.product h2 {
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+.product p {
+  margin: 0 0 10px;
+}
+
+.product .price {
+  color: #f00;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.product .btn {
+  background-color: #0077cc;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  display: inline-block;
+  padding: 10px 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.product .btn:hover {
+  background-color: #005fa3;
+  cursor: pointer;
+}
+
+/* Footer styles */
+
+footer {
+  background-color: #eee;
+  border-top: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-links li {
+  display: inline-block;
+}
+
+.footer-links li:first-child {
+  margin-left: 0;
+}
+
+.footer-links li a {
+  color: #0077cc;
+  display: inline-block;
+  padding: 10px;
+}
+
+.footer-links li a:hover {
+  background-color: #0077cc;
+  color: #fff;
+  border-radius: 5px;
+}
